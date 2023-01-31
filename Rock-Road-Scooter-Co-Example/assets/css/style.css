@@ -213,7 +213,7 @@ padding: 60px 0;
 .page .heading p{padding:15px 0;}
 #home {
   padding: 0;
-  color: #0;/*fff;*/
+  color: #fff;
   background-image: url(../img/cover/title_background_logo_dark.jpg);
   background-repeat: no-repeat;
   background-position: center center;
