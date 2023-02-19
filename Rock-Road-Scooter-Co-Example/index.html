@@ -25,33 +25,33 @@
       <nav class="navbar navbar-default navbar-static" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
+            </button> -->
             <a class="navbar-brand nav-external" href="#home"><strong>ROCK ROAD SCOOTER CO.</strong></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <!-- <li class="active">
-                <a href="#home">Home</a>
-              </li> -->
-              <li>
-                <a href="#services">Services</a>
+              <li class="active">
+                <a class="navbar-brand nav-external" href="#announcements" style="font-family: 'Roboto', sans-serif;font-size: 14px;">Announcements</a>
               </li>
               <li>
-                <a href="#models">Models</a>
+                <a class="navbar-brand nav-external" href="#services" style="font-family: 'Roboto', sans-serif;font-size: 14px;">Services</a>
+              </li>
+              <li>
+                <a class="navbar-brand nav-external" href="#models" style="font-family: 'Roboto', sans-serif;font-size: 14px;">Models</a>
               </li>
               <!-- <li>
                 <a href="#clients">Clients</a>
               </li> -->
               <li>
-                <a href="#about">About</a>
+                <a class="navbar-brand nav-external" href="#about" style="font-family: 'Roboto', sans-serif;font-size: 14px;">About</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a class="navbar-brand nav-external" href="#contact" style="font-family: 'Roboto', sans-serif;font-size: 14px;">Contact</a>
               </li>
             </ul>
           </div>
@@ -76,6 +76,16 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="announcements" class="page space" height=100% position="absolute">
+      <div class="container text-center" height=100% position="absolute">
+          <div class="heading">
+            <h2>Announcements</h2>
+          </div>
+            <p id="announce_content1"><iframe id="announce_conten2" src="assets/announcements/announcements.html" frameborder="0" height="100%"
+                width="100%" scrolling="no"></iframe></p>
       </div>
     </section>
 
@@ -485,43 +495,39 @@
             <p>9804 St. Charles Rock Road, St. Louis MO 63074</p>
             <p>(314) 942-3200<br/><br/></p>
           </div>
-              <!-- <div id="mapContainer_GglMp1" class="UXiAup"> -->
-          <!-- <iframe title="Google Maps" aria-label="Google Maps" data-src="" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="" src="https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/googleMap.4be2d908.html?defaultLocation=0&amp;showZoom=true&amp;showStreetView=true&amp;showMapType=true&amp;language=en&amp;id=c13jg&amp;googleMapsScriptPath=%2Fservices%2Feditor-elements-library%2Fdist%2Fthunderbolt%2Fmedia%2Fgoogle-map.min.7bf10e47.js&amp;origin=https%3A%2F%2Fwww.rockroadscooters.com">
-          </iframe> -->
-          <!-- <iframe src="https://www.google.com/maps/d/embed?mid=zkqAm4_X6ia8.kj6iIDUiDRdc&hl=es&ll=40.7127, -74.0059" width="640" height="480"></iframe> -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.8150624747846!2d-90.37415598430796!3d38.72205476486518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df34091178bfcb%3A0xaf532c0d56603725!2sRock%20Road%20Scooter%20Company!5e0!3m2!1sen!2sus!4v1675134575127!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <br/>
           <br/>
         </div>
-        <div class="row">
-          <span id="message"></span><!-- remove #message to stop floating jQuery messages -->
-          <form target="#" name="contact">
-            <div class="col-lg-5 anim fadeInLeft animated" style="visibility: visible;">
-              <span class="input-group">
-                <i class="fa fa-user"></i>
-                <input type="text" name="contactName" id="contactName" class="lg" placeholder="Name">
-              </span><!-- .input-group -->
-              <span class="input-group">
-                <i class="fa fa-envelope"></i>
-                <input type="text" name="contactEmail" id="contactAddress" class="lg" placeholder="Email Address">
-              </span><!-- .input-group -->
-              <span class="input-group">
-                <i class="fa fa-book"></i>
-                <input type="text" name="contactSubject" id="contactSubject" class="lg" placeholder="Subject">
-              </span><!-- .input-group -->
-            </div><!-- .col-5 -->
-            <div class="col-lg-7 anim fadeInRight animated" style="visibility: visible;">
-              <span class="input-group">
-                <textarea name="contactMessage" id="contactMessage" class="lg" placeholder="What's on your mind?"></textarea>
-              </span><!-- .input-group -->
-              <span class="input-group">
-                <button class="submit" id="submit_contact" data-loading-text="SENDING...">SEND</button>
-              </span><!-- .input-group -->
-            </div>
-          </form>
-        </div>
+       <!-- <div class="row">
+       <!--   <span id="message"></span><!-- remove #message to stop floating jQuery messages
+       <!--   <form target="#" name="contact">
+       <!--     <div class="col-lg-5 anim fadeInLeft animated" style="visibility: visible;">
+       <!--       <span class="input-group">
+       <!--         <i class="fa fa-user"></i>
+       <!--         <input type="text" name="contactName" id="contactName" class="lg" placeholder="Name">
+       <!--       </span><!-- .input-group -->
+       <!--       <span class="input-group">
+       <!--         <i class="fa fa-envelope"></i>
+       <!--         <input type="text" name="contactEmail" id="contactAddress" class="lg" placeholder="Email Address">
+       <!--       </span><!-- .input-group -->
+       <!--       <span class="input-group">
+       <!--         <i class="fa fa-book"></i>
+       <!--         <input type="text" name="contactSubject" id="contactSubject" class="lg" placeholder="Subject">
+       <!--       </span><!-- .input-group -->
+       <!--     </div><!-- .col-5 -->
+       <!--     <div class="col-lg-7 anim fadeInRight animated" style="visibility: visible;">
+       <!--       <span class="input-group">
+       <!--         <textarea name="contactMessage" id="contactMessage" class="lg" placeholder="What's on your mind?"></textarea>
+       <!--       </span><!-- .input-group -->
+       <!--       <span class="input-group">
+       <!--         <button class="submit" id="submit_contact" data-loading-text="SENDING...">SEND</button>
+       <!--       </span><!-- .input-group -->
+       <!--     </div>
+       <!--   </form>
+       <!-- </div> -->
       </div><!-- .container -->
-        <span id="message_sent"><i class="fa-check fa"></i></span><!-- jQuery display of giant checkmark -->
+       <!-- <span id="message_sent"><i class="fa-check fa"></i></span><!-- jQuery display of giant checkmark -->
     </section>
 
     <footer id="footer">
